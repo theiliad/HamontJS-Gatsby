@@ -7,7 +7,7 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/gatsby.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -20,12 +20,69 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+
+		<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-background-image="img/bg.svg">
+					<div>
+						<img src="img/gatsby.svg" style="max-width: 300px;" />
+					</div>
+
+					<h1 style="font-size: 50px; max-width: 700px; margin: auto;">Blazing-fast static site generator for React</h1>
+				</section>
+
+				<section>
+					<h2>"Who are you?"</h2>
+
+					
+					<div style="display: table;">
+						<img src="img/eliad.jpg" style="max-width: 25%; float: left;" />
+
+						<div style="float: left; width: 70%; margin-left: 30px; text-align: left;">
+							<p>Eliad Moosavi</p>
+
+							<ul style="font-size: 25px;">
+								<li>22 year-old software engineering student</li>
+								<li>Coding web since 2010</li>
+								<li>First Canadian Docker ambassador & official mentor</li>
+								<li>Auth0 & IBM ambassador</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<h2>"Why Static...?"</h2>
+
+					<div class="alignleft">
+						<h3>Pros:</h3>
+
+						<ul style="font-size: 25px;">
+							<li>No need for a server</li>
+							<li>Easy and fast routing</li>
+							<li>Perfect for modern frameworks</li>
+						</ul>
+					</div>
+				</section>
+
+				<section>
+					<h2>Introducing Gatsby</h2>
+					<p>Static site generator for React</p>
+
+					<div class="alignleft" style="margin-top: 30px;">
+						<h3 style="font-size: 25px; margin-bottom: 0;">Based on the ideologies of:</h3>
+
+						<img src="img/jamstack.jpg" style="height: 50px;" />
+
+						<h3 style="font-size: 25px; margin-bottom: 0; margin-top: 30px;">And uses:</h3>
+						<img src="img/react.png" style="height: 50px; margin-right: 30px;" />
+						<img src="img/graphql.png" style="height: 50px; margin-right: 30px;" />
+						<img src="img/webpack.png" style="height: 50px;" />
+					</div>
+				</section>
 			</div>
 		</div>
 
