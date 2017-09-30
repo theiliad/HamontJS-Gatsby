@@ -282,6 +282,12 @@ span.snippet {
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
+.reveal .controls {
+  background: rgba(256, 256, 256, 0.25);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%; }
+  
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
   border-right-color: #673d94; }
